@@ -60,27 +60,27 @@ export const assets = {
 
 export const specialityData = [
     {
-        speciality: 'General physician',
+        speciality: 'Makeup',
         image: General_physician
     },
     {
-        speciality: 'Gynecologist',
+        speciality: 'Bridal',
         image: Gynecologist
     },
     {
-        speciality: 'Dermatologist',
+        speciality: 'Skincare',
         image: Dermatologist
     },
     {
-        speciality: 'Pediatricians',
+        speciality: 'Manicure',
         image: Pediatricians
     },
     {
-        speciality: 'Neurologist',
+        speciality: 'Hair',
         image: Neurologist
     },
     {
-        speciality: 'Gastroenterologist',
+        speciality: 'Grooming',
         image: Gastroenterologist
     },
 ]
@@ -88,212 +88,197 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Mr. Manish Mittal',
         image: doc1,
-        speciality: 'General physician',
-        degree: 'MBBS',
+        speciality: 'Makeup',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Our makeup artists at BlushBay provide a full range of services including base makeup, contouring, highlighting, eye makeup, lipstick, and setting sprays. They focus on enhancing your natural beauty with precision and creativity for all occasions, whether casual events, parties, or photoshoots. Our team ensures each client receives a personalized look that is long-lasting, stylish, and perfectly suited to their skin tone. Our makeup services are designed to make you feel confident, radiant, and camera-ready every time.',
+        fees: 500,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Studio',
+            line2: '21 Orchid Street, Gurgaon'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Ms. Rachel Garg',
         image: doc2,
-        speciality: 'Gynecologist',
-        degree: 'MBBS',
+        speciality: 'Bridal',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Our bridal artists specialize in complete bridal transformations including skincare prep, foundation, eye makeup, blush, lipstick, and setting sprays. We cater to destination weddings, engagement ceremonies, and pre-wedding events, ensuring each bride looks flawless. Our team combines traditional and modern styles, with long-lasting makeup that withstands photography, ceremonies, and celebrations. Every session is personalized, creating a radiant, confident, and elegant bridal appearance.',
+        fees: 700,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Lounge',
+            line2: '45 Jasmine lane, Connaught Place'
         }
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Ms. Mitali Aeron',
         image: doc3,
-        speciality: 'Dermatologist',
-        degree: 'MBBS',
+        speciality: 'Skincare',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        about: 'Our skincare experts provide facials, exfoliation, hydration masks, serums, and moisturizers designed to rejuvenate and maintain healthy skin. We focus on preventive care, targeting issues like dryness, acne, and dullness with personalized treatments for all skin types. Our services are suitable for routine maintenance, special occasions, and pre-makeup prep, ensuring your skin looks radiant and refreshed. Each session is performed with precision, quality products, and attention to long-term skin wellness.',
+        fees: 300,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Salon',
+            line2: '56 Rose Avenue, Hauz khas'
         }
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Mr. Abhishek Indrani',
         image: doc4,
-        speciality: 'Pediatricians',
-        degree: 'MBBS',
+        speciality: 'Manicure',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'Our manicure services include nail shaping, cuticle care, hand massage, polish application, and creative nail art. We cater to casual looks, party-ready nails, and pre-event styling, ensuring healthy and stylish hands. Each session is tailored to client preferences, combining precision, hygiene, and attention to detail. Our goal is to leave your nails polished, elegant, and long-lasting, providing the perfect finishing touch to your overall look.',
+        fees: 300,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Salon',
+            line2: '56 Rose Avenue, Hauz khas'
         }
     },
     {
         _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
+        name: 'Mr. Kartik Malhotra',
         image: doc5,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        speciality: 'Hair',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Our hair services include haircuts, blow-dry, styling, coloring, highlights, and nourishing treatments. We cater to daily styling, parties, photoshoots, and special events, ensuring hair looks healthy, vibrant, and elegant. Our team focuses on creating styles that suit face shapes, textures, and personal preferences while maintaining hair strength and shine. Every client enjoys a polished, manageable, and camera-ready finish tailored to their lifestyle and needs.',
+        fees: 400,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Salon',
+            line2: '56 Rose Avenue, Hauz khas'
         }
     },
     {
         _id: 'doc6',
-        name: 'Dr. Andrew Williams',
+        name: 'Mr. Zaffar Khan',
         image: doc6,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        speciality: 'Hair',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'We offer professional haircuts, blowouts, color treatments, highlights, and hair masks for healthy, stylish, and voluminous hair. Our services cover daily grooming, weddings, and special occasions, with personalized advice for hair care and maintenance. Stylists focus on precision, creativity, and long-lasting results, ensuring hair looks glossy, smooth, and perfectly styled for every event.',
+        fees: 400,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Studio',
+            line2: '21 Orchid Street, Gurgaon'
         }
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Mr. Karan Kapoor',
         image: doc7,
-        speciality: 'General physician',
-        degree: 'MBBS',
+        speciality: 'Makeup',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'We offer professional makeup sessions including primer, foundation, concealer, blush, eyeshadow, eyeliner, mascara, and lip color. Each session is tailored to your preferences and the event, from small gatherings to formal celebrations. Our artists combine current trends with classic techniques, ensuring a flawless finish that enhances your features. Every client experiences expert application, smooth blending, and a long-lasting look that stays perfect throughout the day or night.',
+        fees: 500,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Lounge',
+            line2: '45 Jasmine lane, Connaught Place'
         }
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Ms. Niharika Vats',
         image: doc8,
-        speciality: 'Gynecologist',
-        degree: 'MBBS',
+        speciality: 'Bridal',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'We offer full bridal makeup packages including facial prep, cleansing, moisturizer, primer, contouring, eye makeup, lip color, and final setting. Our services cover sangeet, mehendi, and reception functions, as well as destination weddings. Each bride receives customized attention for skin tone, outfit coordination, and personal style. The result is a glowing, sophisticated, and camera-ready bridal look that highlights her best features for every memorable moment.',
+        fees: 700,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Lounge',
+            line2: '45 Jasmine lane, Connaught Place'
         }
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Mr. Raj Anguralia',
         image: doc9,
-        speciality: 'Dermatologist',
-        degree: 'MBBS',
+        speciality: 'Skincare',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        about: 'Our personalized skincare services include cleansing, exfoliation, toners, masks, serums, and moisturizers that enhance skin texture and tone. We cater to routine skincare, pre-bridal prep, and special events, ensuring skin is healthy, hydrated, and radiant. Treatments are designed to balance, repair, and rejuvenate, using professional-grade products and techniques. Each client enjoys a calming and effective experience that improves skin appearance and overall wellness.',
+        fees: 300,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Salon',
+            line2: '56 Rose Avenue, Hauz khas'
         }
     },
     {
         _id: 'doc10',
-        name: 'Dr. Jeffrey King',
+        name: 'Ms. Muskan Aggarwal',
         image: doc10,
-        speciality: 'Pediatricians',
-        degree: 'MBBS',
+        speciality: 'Manicure',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 40,
+        about: 'We provide professional nail care including cleaning, filing, cuticle treatment, hand massage, and polish application. Our services suit daily wear, special occasions, and pre-event pampering, focusing on aesthetics and nail health. Each manicure is performed with care and creativity, ensuring nails remain strong, shiny, and beautifully styled. Clients leave feeling polished, confident, and ready to complement any outfit or event.',
+        fees: 300,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Salon',
+            line2: '56 Rose Avenue, Hauz khas'
         }
     },
     {
         _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
+        name: 'Ms. Jerry',
         image: doc11,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        speciality: 'Grooming',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Our grooming services include threading, waxing, eyebrow shaping, and facial treatments using skin-friendly products. We cater to pre-event grooming, daily maintenance, and special occasions, ensuring smooth, refined, and polished results. Each session focuses on precision, hygiene, and personalized care, leaving clients confident and perfectly groomed for any look or event.',
+        fees: 200,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Studio',
+            line2: '21 Orchid Street, Gurgaon'
         }
     },
     {
         _id: 'doc12',
-        name: 'Dr. Patrick Harris',
+        name: 'Ms. Komal Bora',
         image: doc12,
-        speciality: 'Neurologist',
-        degree: 'MBBS',
+        speciality: 'Hair',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'Our hair package includes shampoo, conditioning, trims, blow-dry, styling, and finishing with nourishing products. We cater to birthdays, events, corporate functions, and pre-wedding shoots, enhancing hair health and appearance. Treatments are designed to restore shine, manageability, and volume, with attention to every strand. Clients leave with strong, vibrant, and effortlessly styled hair that complements their overall look.',
+        fees: 300,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Lounge',
+            line2: '45 Jasmine lane, Connaught Place'
         }
     },
     {
         _id: 'doc13',
-        name: 'Dr. Chloe Evans',
+        name: 'Ms. Riya Jain',
         image: doc13,
-        speciality: 'General physician',
-        degree: 'MBBS',
+        speciality: 'Makeup',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 50,
+        about: 'At BlushBay, our makeup services include full-face application, contouring, eye styling, lip makeup, and final touch-ups. We cater to birthdays, corporate events, casual meet-ups, and evening parties, providing a personalized approach to suit every occasion. The team focuses on delivering vibrant, elegant, and polished looks while maintaining skin health and comfort. We ensure each client leaves feeling confident, glamorous, and perfectly styled.',
+        fees: 500,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Lounge',
+            line2: '45 Jasmine lane, Connaught Place'
         }
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Mr. Ryan Chadda',
         image: doc14,
-        speciality: 'Gynecologist',
-        degree: 'MBBS',
+        speciality: 'Bridal',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 60,
+        about: 'Our expert bridal team provides deep cleansing, exfoliation, serum application, foundation, eye makeup, blush, lipstick, and final touch-ups. We cater to engagement parties, pre-wedding shoots, and the main wedding day, ensuring a cohesive and stunning appearance. The approach combines traditional bridal elegance with modern makeup trends, delivering long-lasting, flawless results. Every bride enjoys a stress-free, personalized experience designed to make her feel beautiful and confident throughout her special day.',
+        fees: 800,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Studio',
+            line2: '21 Orchid Street, Gurgaon'
         }
     },
     {
         _id: 'doc15',
-        name: 'Dr. Amelia Hill',
+        name: 'Mr. Tushar Kapoor',
         image: doc15,
-        speciality: 'Dermatologist',
-        degree: 'MBBS',
+        speciality: 'Skincare',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
-        fees: 30,
+        about: 'Our personalized skincare services include cleansing, exfoliation, toners, masks, serums, and moisturizers that enhance skin texture and tone. We cater to routine skincare, pre-bridal prep, and special events, ensuring skin is healthy, hydrated, and radiant. Treatments are designed to balance, repair, and rejuvenate, using professional-grade products and techniques. Each client enjoys a calming and effective experience that improves skin appearance and overall wellness.',
+        fees: 200,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: 'BlushBay Salon',
+            line2: '56 Rose Avenue, Hauz khas'
         }
     },
 ]
