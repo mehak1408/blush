@@ -133,12 +133,12 @@ const AddDoctor = () => {
                         <div className='flex-1 flex flex-col gap-1'>
                             <p>Speciality</p>
                             <select onChange={e => setSpeciality(e.target.value)} value={speciality} className='border rounded px-2 py-2'>
-                                <option value="General physician">Makeup</option>
-                                <option value="Gynecologist">Bridal</option>
-                                <option value="Dermatologist">Skincare</option>
-                                <option value="Pediatricians">Manicure</option>
-                                <option value="Neurologist">Hair</option>
-                                <option value="Gastroenterologist">Grooming</option>
+                                <option value="Makeup">Makeup</option>
+                                <option value="Bridal">Bridal</option>
+                                <option value="Skincare">Skincare</option>
+                                <option value="Manicure">Manicure</option>
+                                <option value="Hair">Hair</option>
+                                <option value="Grooming">Grooming</option>
                             </select>
                         </div>
 
