@@ -16,7 +16,7 @@ const Navbar = () => {
         src={assets.logo}
         alt="Logo"
       />
-      <ul className="hidden md:flex items-start gap-5 font-medium">
+      <ul className="hidden md:flex items-start gap-8 font-semibold text-lg">
         <NavLink to="/">
           <li className="py-1">HOME</li>
           <hr className="border-none outline-none h-0.5 bg-pink-600 w-3/5 m-auto hidden" />
