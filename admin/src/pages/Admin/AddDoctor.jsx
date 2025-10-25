@@ -75,7 +75,7 @@ const AddDoctor = () => {
     return (
         <form onSubmit={onSubmitHandler} className='m-5 w-full'>
 
-            <p className='mb-3 text-lg font-medium'>Add Doctor</p>
+            <p className='mb-3 text-lg font-medium'>Add Expert</p>
 
             <div className='bg-white px-8 py-8 border rounded w-full max-w-4xl max-h-[80vh] overflow-y-scroll'>
                 <div className='flex items-center gap-4 mb-8 text-gray-500'>
@@ -83,7 +83,7 @@ const AddDoctor = () => {
                         <img className='w-16 bg-gray-100 rounded-full cursor-pointer' src={docImg ? URL.createObjectURL(docImg) : assets.upload_area} alt="" />
                     </label>
                     <input onChange={(e) => setDocImg(e.target.files[0])} type="file" name="" id="doc-img" hidden />
-                    <p>Upload doctor <br /> picture</p>
+                    <p>Upload Expert <br /> picture</p>
                 </div>
 
                 <div className='flex flex-col lg:flex-row items-start gap-10 text-gray-600'>
@@ -96,7 +96,7 @@ const AddDoctor = () => {
                         </div>
 
                         <div className='flex-1 flex flex-col gap-1'>
-                            <p>Doctor Email</p>
+                            <p>Email</p>
                             <input onChange={e => setEmail(e.target.value)} value={email} className='border rounded px-3 py-2' type="email" placeholder='Email' required />
                         </div>
 
@@ -123,7 +123,7 @@ const AddDoctor = () => {
 
                         <div className='flex-1 flex flex-col gap-1'>
                             <p>Fees</p>
-                            <input onChange={e => setFees(e.target.value)} value={fees} className='border rounded px-3 py-2' type="number" placeholder='Doctor fees' required />
+                            <input onChange={e => setFees(e.target.value)} value={fees} className='border rounded px-3 py-2' type="number" placeholder='Expert fees' required />
                         </div>
 
                     </div>
@@ -159,11 +159,11 @@ const AddDoctor = () => {
                 </div>
 
                 <div>
-                    <p className='mt-4 mb-2'>About Doctor</p>
-                    <textarea onChange={e => setAbout(e.target.value)} value={about} className='w-full px-4 pt-2 border rounded' rows={5} placeholder='write about doctor'></textarea>
+                    <p className='mt-4 mb-2'>About Expert</p>
+                    <textarea onChange={e => setAbout(e.target.value)} value={about} className='w-full px-4 pt-2 border rounded' rows={5} placeholder='write about expert'></textarea>
                 </div>
 
-                <button type='submit' className='bg-primary px-10 py-3 mt-4 text-white rounded-full'>Add doctor</button>
+                <button type='submit' className='bg-pink-500 px-10 py-3 mt-4 text-white rounded-full'>Add Expert</button>
 
             </div>
 
