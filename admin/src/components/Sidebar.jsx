@@ -1,13 +1,12 @@
-import React, { useContext } from 'react'
-import { assets } from '../assets/assets'
-import { NavLink } from 'react-router-dom'
-import { DoctorContext } from '../context/DoctorContext'
-import { AdminContext } from '../context/AdminContext'
+import React, { useContext } from "react";
+import { assets } from "../assets/assets";
+import { NavLink } from "react-router-dom";
+import { GlamContext } from "../context/GlamContext";
+import { AdminContext } from "../context/AdminContext";
 
 const Sidebar = () => {
-
-  const { dToken } = useContext(DoctorContext)
-  const { aToken } = useContext(AdminContext)
+  const { dToken } = useContext(GlamContext);
+  const { aToken } = useContext(AdminContext);
 
   return (
     <div className="min-h-screen bg-white border-r">
@@ -99,6 +98,6 @@ const Sidebar = () => {
       )}
     </div>
   );
-}
+};
 
-export default Sidebar
+export default Sidebar;
