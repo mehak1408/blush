@@ -16,5 +16,5 @@ const doctorSchema = new mongoose.Schema({
     date: { type: Number, required: true },
 }, { minimize: false })
 
-const doctorModel = mongoose.models.doctor || mongoose.model("doctor", doctorSchema);
-export default doctorModel;
+const glamModel = mongoose.models.doctor || mongoose.model("doctor", doctorSchema);
+export default glamModel;

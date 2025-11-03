@@ -4,7 +4,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { AppContext } from '../context/AppContext'
 import { useNavigate } from 'react-router-dom'
 
-const RelatedDoctors = ({speciality, docId}) => {
+const RelatedGlam = ({speciality, docId}) => {
     const {doctors} = useContext(AppContext)
     const navigate = useNavigate()
 
@@ -42,4 +42,4 @@ const RelatedDoctors = ({speciality, docId}) => {
   )
 }
 
-export default RelatedDoctors
+export default RelatedGlam
