@@ -1,170 +1,101 @@
-# Prescripto - Doctor Appointment Web App
-
-**Prescripto** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), Prescripto provides an efficient, user-friendly experience for both patients and healthcare providers.
+# 💅 BlushBay – Full Stack Beauty & Salon Management Platform
+BlushBay is a full-stack web application designed to digitalize and simplify salon management.
+It provides two dedicated portals — Admin and User — that help manage appointments, professionals, and payments with an intuitive interface.
+Built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Razorpay integration, it ensures a secure, efficient, and user-friendly experience for both customers and salon owners.
 
 ## 🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS, Vite
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JSON Web Token (JWT)
+Payment Gateway: Razorpay
 
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Payment Gateways**: Stripe, Razorpay
-- **Authentication**: JSON Web Token (JWT)
+## ✨ Key Features
 
-## 🔑 Key Features
+## 👩‍🦰 User Portal
+Create an account, log in securely, and manage your profile.
+Browse salon services categorized under Hair, Skin, Makeup, Spa, etc.
+Book, reschedule, or cancel appointments easily.
+View upcoming and past bookings in your dashboard.
+Make secure online payments through Razorpay or opt for cash payment.
+Receive real-time appointment confirmations.
 
-### 1. Three-Level Authentication
-
-- **Patient Login**: 
-  - Patients can sign up, log in, and book appointments with doctors.
-  - Manage appointments (view, cancel, or reschedule).
-  - Secure online payment options available (cash, Stripe, Razorpay).
-  - User profile with editable information (name, email, address, gender, birthday, profile picture).
-
-- **Doctor Login**:
-  - Doctors can log in and manage appointments.
-  - Dashboard displays earnings, number of patients, number of appointments, and latest bookings.
-  - Update profile details (description, fees, address, availability status).
-  - View appointment details (patient info, payment mode, appointment status).
-
-- **Admin Login**:
-  - Admins can create and manage doctor profiles.
-  - Dashboard with analytics: total doctors, total appointments, total patients, and recent bookings.
-  - Add new doctors (image, specialty, degree, experience, address, fees, etc.).
-  - View and manage all appointments (cancel or mark as completed).
-
-## 🏠 Home Page
-
-- Features a user-friendly layout where users can:
-  - **Search for doctors** based on specialties.
-  - **View top doctors** and their profiles.
-  - Explore additional sections: About Us, Delivery Information, Privacy Policy, and Get in Touch.
-- **Footer** includes navigation links: Home, About Us, Delivery Info, Privacy Policy, Contact Us.
-
-## 🩺 All Doctors Page
-
-- Lists all available doctors.
-- Users can **filter doctors by specialty**.
-- Clicking on a doctor's profile redirects to the **Doctor Appointment Page**.
-
-## 📄 About Page
-
-- Provides information about **Prescripto’s vision** and mission.
-- **Why Choose Us** section highlights:
-  - **Efficiency**: Streamlined appointment process.
-  - **Convenience**: Online booking and payment.
-  - **Personalization**: Tailored experience based on user preferences.
-- Footer section with additional links.
-
-## 📞 Contact Page
-
-- Contains **office address** and contact details.
-- Section to explore job opportunities.
-- Footer navigation links.
-
-## 📅 Doctor Appointment Page
-
-- Displays detailed information about the selected doctor:
-  - **Profile picture, qualification, experience**, and a brief description.
-  - **Appointment booking form**: Choose date, time, and payment method.
-  - Online payment options: **Cash, Stripe, or Razorpay**.
-  - **Related doctors** section at the bottom.
-- Users need to **create an account or log in** before booking an appointment.
-
-## 👤 User Profile
-
-- Accessible after login.
-- Users can view and edit their profile:
-  - **Upload profile picture**.
-  - Update **name, email, address, gender, and birthday**.
-- View list of upcoming and past appointments.
-- **Logout** option available.
-
-## 🗄️ Admin Panel
-
-- **Dashboard**:
-  - Displays statistics: **Number of doctors**, **appointments**, **patients**, and **latest bookings**.
-  - Option to **cancel bookings** if needed.
-- **Add Doctor**:
-  - Form to add a new doctor profile (image, specialty, email, password, degree, address, experience, fees, description).
-- **Doctor List**:
-  - View all registered doctors with options to edit or delete profiles.
-- **Appointments**:
-  - List of all appointments including patient name, age, date, time, doctor name, fees.
-  - Admin actions: **Cancel** or **Mark as Completed**.
-
-## 🩺 Doctor Dashboard
-
-- **Earnings Overview**:
-  - Total earnings from completed appointments.
-- **Appointments List**:
-  - View detailed list of patient appointments (name, age, date, time, payment mode, status).
-  - Actions: **Mark appointment as completed** or **Cancel appointment**.
-- **Profile Management**:
-  - Doctors can update their **profile information**, including description, fees, address, and availability status.
+## 👩‍💼 Admin Portal
+Dedicated dashboard to view total customers, bookings, and revenue.
+Add, update, or remove salon professionals and services.
+Monitor daily appointments, manage their status, and track payments.
+Control stylist availability, pricing, and service categories.
+Generate insights on performance and customer activity.
 
 ## 💳 Payment Integration
+Integrated Razorpay for secure, real-time payments.
+Supports multiple payment modes — cash and online.
+Provides transaction safety with JWT authentication and validation.
 
-- Supports multiple payment methods:
-  - **Cash Payment**
-  - **Stripe Integration**
-  - **Razorpay Integration**
-- Ensures a secure and smooth payment experience for users.
-
-## 🌐 Project Setup
-
-To set up and run this project locally:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/prescripto.git
-   cd prescripto
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   cd client
-   npm install
-   ```
-
-3. **Environment Variables**:
-   - Create a `.env` file in the root directory and add the following:
-     ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     STRIPE_API_KEY=your_stripe_api_key
-     RAZORPAY_API_KEY=your_razorpay_api_key
-     ```
-
-4. **Run the Application**:
-   ```bash
-   npm run dev
-   ```
-
-## 📦 Folder Structure
-
-```plaintext
-prescripto/
-├── client/          # Frontend (React.js)
-├── server/          # Backend (Node.js, Express.js)
-├── models/          # MongoDB Schemas
-├── controllers/     # API Controllers
-├── routes/          # API Routes
-├── middleware/      # Authentication and Error Handling
-├── config/          # Configuration Files
-├── utils/           # Utility Functions
-├── public/          # Static Files
-└── .env             # Environment Variables
+## ⚙️ Project Setup
 ```
+1️⃣ Clone the Repository
+git clone https://github.com/mehak1408/blush.git
+cd blush
+```
+## 2️⃣ Install Dependencies
+```
+cd frontend && npm install
+cd ../backend && npm install
+```
+## 3️⃣ Setup Environment Variables
+```
+Create a .env file in both the backend and admin/frontend folders and include:
+MONGO_URI=your_mongodb_connection_string  
+JWT_SECRET=your_jwt_secret  
+RAZORPAY_API_KEY=your_razorpay_api_key  
+```
+## 4️⃣ Run the Application
+```
+npm run dev
+```
+## 📂 Folder Structure & Explanation
+```
+blush/
+├── admin/ # Admin portal built with React + Vite
+│ ├── src/ # React source files
+│ ├── public/ # Static assets for admin app
+│ ├── package.json # Admin dependencies and scripts
+│ └── vite.config.js # Vite configuration
+│
+├── backend/ # Backend server (Node + Express)
+│ ├── config/ # Database connection and environment setup
+│ ├── controllers/ # Logic for handling API requests (users, bookings, etc.)
+│ ├── middleware/ # Authentication, authorization, and error handling
+│ ├── models/ # MongoDB schemas (User, Booking, Professional)
+│ ├── routes/ # API endpoints for users, services, and admin
+│ ├── server.js # Main server file connecting Express and MongoDB
+│ └── vercel.json # Deployment configuration for Vercel
+│
+├── frontend/ # User-facing web app
+│ ├── src/ # Core React app structure
+│ │ ├── assets/ # Images, icons, and static media
+│ │ ├── components/ # Reusable UI components (Navbar, Footer, Cards)
+│ │ ├── context/ # Global state management using Context API
+│ │ ├── pages/ # Main pages (Home, Services, Booking, Profile)
+│ │ ├── App.jsx # App routes and layout
+│ │ ├── index.css # Global styles with Tailwind integration
+│ │ └── main.jsx # Root file for React app
+│ ├── public/ # Static files and metadata
+│ ├── package.json # Frontend dependencies
+│ └── vite.config.js # Vite setup for optimized build
+│
+├── .env # Environment variables (ignored in Git)
+├── .gitignore # Files to be ignored by Git
+├── README.md # Project documentation
+└── package.json # Root configuration (if needed)
+```
+## 🚀 Deployment
+Frontend and Admin deployed via Vercel.
+Backend API hosted with MongoDB Atlas for database and Express.js for routing.
 
 ## 🤝 Contributing
-
-We welcome contributions! Please feel free to submit issues, fork the repository, and open pull requests.
-
+Contributions are welcome! Feel free to fork the repo, open issues, or submit pull requests.
 
 ## 🌟 Acknowledgements
-
-- Thanks to the developers and contributors of MongoDB, Express.js, React.js, Node.js, Stripe, and Razorpay for their fantastic tools and libraries.
-
----
-
+Thanks to the developers of MongoDB, Express.js, React.js, Node.js, and Razorpay for their tools that made BlushBay possible.
